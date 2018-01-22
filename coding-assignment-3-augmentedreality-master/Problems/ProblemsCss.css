@@ -1,0 +1,23 @@
+body{
+  background-repeat: no-repeat;
+  background-position: left;
+  background-attachment: fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  background-size: cover;
+}
+.picture{
+  background-image: url("../Pictures/background.jpg");
+}
+section{
+  font-size: 15px;
+}
+h1{
+  text-align: center;
+}
+ul{
+  list-style: inside;
+}
+li{
+  text-decoration: underline;
+}

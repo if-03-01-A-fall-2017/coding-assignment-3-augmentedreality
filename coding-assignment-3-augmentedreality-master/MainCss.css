@@ -1,0 +1,81 @@
+thead{
+    text-align: center;
+}
+body{
+  background-repeat: no-repeat;
+  background-position: left;
+  background-attachment: fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  background-size: cover;
+}
+.picture{
+  background-image: url("Pictures/background.jpg");
+}
+h1{
+  text-align: center;
+}
+.head-line{
+  background-color: grey;
+}
+h4{
+  color: white;
+}
+
+
+.quote{
+/*  font-family:'HurmeGeometricSans3-SemiBoldObl', Helvetica, Arial, sans-serif;*/
+  font-family: Helvetica;
+  color: white;
+  font-size:2.625em;
+  line-height:1.2;
+  text-align: center;
+  letter-spacing:9px;
+  text-transform:uppercase;
+  width: 0px;
+  position: fixed;
+  top: 33.5%;
+  left: 0%;
+  margin-top: -200px;
+  margin-left: -0;
+  text-shadow: 1px 1px 2px black, 0 0 25px lightblue, 0 0 5px darkblue;}
+.box {
+    background: lightgrey;
+    border-radius: 6px;
+    cursor: pointer;
+    line-height: 95px;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1.5s;
+    transition-timing-function:ease-in;
+    width: 95px;
+  }
+  .box:hover {
+    background: lightblue;}
+
+  .animation1{
+    background-color: white;
+    -webkit-animation-name: animation1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
+    animation-name: animation1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+  }
+
+  .animation2{
+    background-color: white;
+    animation-name: animation2;
+    animation-duration: 0.25s;
+    animation-direction: alternate;
+    animation-iteration-count: 6;
+  }
+  @keyframes animation1 {
+  from {background-color: white;}
+  to {background-color: lightblue;}
+}
+@keyframes animation2 {
+  0%{transform: translateY(0);}
+100%{transform: translateY(20px);}
+  }

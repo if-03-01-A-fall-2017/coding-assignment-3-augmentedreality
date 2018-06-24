@@ -12,9 +12,9 @@ body{
 .centered
 {
   position: absolute;
-height: 320px;
-width: 400px;
-margin: -100px 0 0 -200px;
-top: 40%;
-left: 50%;
+  height: 320px;
+  width: 400px;
+  margin: -100px 0 0 -200px;
+  top: 40%;
+  left: 50%;
 }
